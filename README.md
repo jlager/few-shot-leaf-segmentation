@@ -2,6 +2,8 @@
 
 Supporting information for "Few-Shot Learning Enables Population-Scale Analysis of Leaf Traits in *Populus trichocarpa*"
 
+https://user-images.githubusercontent.com/37625677/212132074-6a5a1ffc-51a7-4a86-9eb4-2213631e4783.mov
+
 **Manuscript:**
 
 [DOI link when available]
