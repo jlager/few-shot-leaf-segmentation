@@ -16,11 +16,6 @@ Directories:
 
     Few-shot learning for p. trichocarpa leaf traits
     ├── data
-    │   ├── genomes
-    │   │   ├── Ptri_V4_Nisq1.1419.VQSRrecal9_tranche99_allchr.biallelicSNP.geno015.hwe1e50.maf05.mind015.bed
-    │   │   ├── Ptri_V4_Nisq1.1419.VQSRrecal9_tranche99_allchr.biallelicSNP.geno015.hwe1e50.maf05.mind015.bim
-    │   │   ├── Ptri_V4_Nisq1.1419.VQSRrecal9_tranche99_allchr.biallelicSNP.geno015.hwe1e50.maf05.mind015.fam
-    │   │   └── README.txt
     │   ├── images
     │   │   └── *.jpeg
     │   ├── leaf_masks
@@ -76,7 +71,7 @@ The `data` folder includes all images, ground truth segmentations, predicted seg
 - The `vein_masks` folder includes 8 ground truth segmentations used for training the vein growing algorithm.
 - The `vein_preds` folder includes the 1,453 predicted segmentations from the vein growing algorithm.
 - The `vein_probs` folder includes the 1,453 predicted probability maps from the vein growing algorithm before thresholding.
-- The `genomes` folder includes the set of SNPs called against the v4 *P. trichocarpa* genome for 1,419 genotypes with a README file detailing the steps taken. 
+- The `genomes` folder includes the set of SNPs called against the v4 *P. trichocarpa* genome for 1,419 genotypes with a README file detailing the steps taken. Note, this folder is not included in this repository, but can be accessed using the Oak Ridge National Laboratory (ORNL) Constellation Portal [DOI link when available].
 - The `results` folder includes 
   - Raw values of the 68 predicted leaf traits in `digital_traits.tsv`
   - Manually measured values of petiole length and width in `manual_traits.tsv`
