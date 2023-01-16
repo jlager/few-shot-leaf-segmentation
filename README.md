@@ -1,18 +1,18 @@
-# few-shot-leaf-segmentation
+# Few-shot learning for leaf and vein segmentation
 
-Supporting information for "Few-Shot Learning Enables Population-Scale Analysis of Leaf Traits in *Populus trichocarpa*"
-
-https://user-images.githubusercontent.com/37625677/212132074-6a5a1ffc-51a7-4a86-9eb4-2213631e4783.mov
-
-**Manuscript:**
-
-[DOI link when available]
-
-**Description:**
+**Description**
 
 In this work, we use few-shot learning to segment the body and vein architecture of *P. trichocarpa* leaves from high-resolution scans obtained in the UC Davis common garden. Leaf and vein segmentation are formulated as separate tasks, in which convolutional neural networks (CNNs) are used to iteratively expand partial segmentations until reaching stopping criteria. Our leaf and vein segmentation approaches use just 50 and 8 manually traced images for training, respectively, and are applied to a set of 2,634 top and bottom leaf scans. We show that both methods achieve high segmentation accuracy, in some cases exceeding even human-level segmentation. The leaf and vein segmentations are subsequently used to extract 68 morphological traits using traditional open-source image processing tools, which are validated using real-world physical measurements. For a biological perspective, we perform a genome-wide association study using the "vein density" trait to discover novel genetic architectures associated with multiple physiological processes relating to leaf development and function. In addition to sharing all of the few-shot learning code, we are releasing all images, manual segmentations, model predictions, 68 extracted leaf phenotypes, and a new set of SNPs called against the v4 *P. trichocarpa* genome for 1,419 genotypes.
 
-Directories:
+**Leaf segmentation**
+
+https://user-images.githubusercontent.com/37625677/212694490-45f31320-7c2f-4720-8e4b-dd868200a0a4.mov
+
+**Vein segmentation**
+
+https://user-images.githubusercontent.com/37625677/212132074-6a5a1ffc-51a7-4a86-9eb4-2213631e4783.mov 
+
+**Directories:**
 
     Few-shot learning for p. trichocarpa leaf traits
     ├── data
