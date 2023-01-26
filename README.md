@@ -1,5 +1,9 @@
 # Few-shot learning for leaf and vein segmentation
 
+**Manuscript:**
+
+https://doi.org/10.48550/arXiv.2301.10351
+
 **Leaf segmentation**
 
 https://user-images.githubusercontent.com/37625677/212694490-45f31320-7c2f-4720-8e4b-dd868200a0a4.mov
@@ -120,3 +124,16 @@ The `utils` folder includes utility scripts implemented in Python that assist in
 **Weights:**
 
 The `weights` folder includes the CNN parameters from the epoch resulting in the best validation error. The file names include the size of the input window for each method (e.g., 128 for the vein growing CNN). The weights are loaded into the CNN models for inference.
+
+**Citation:**
+
+    @misc{https://doi.org/10.48550/arxiv.2301.10351,
+      doi = {10.48550/ARXIV.2301.10351},
+      url = {https://arxiv.org/abs/2301.10351},
+      author = {Lagergren, John and Pavicic, Mirko and Chhetri, Hari B. and York, Larry M. and Hyatt, P. Doug and Kainer, David and Rutter, Erica M. and Flores, Kevin and Taylor, Gail and Jacobson, Daniel and Streich, Jared},
+      keywords = {Few-shot learning, Image-based plant phenotyping, Genomic analysis},
+      title = {Few-Shot Learning Enables Population-Scale Analysis of Leaf Traits in Populus trichocarpa},
+      publisher = {arXiv},
+      year = {2023},
+      copyright = {arXiv.org perpetual, non-exclusive license}
+    }
