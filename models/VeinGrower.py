@@ -94,9 +94,9 @@ class VeinGrower():
         
         # pad image and mask with zeros
         w = int(self.window_size/2)
-        image = np.pad(image, [[w,w],[w,w],[0,0]], 'constant', constant_values=1.0)
+        image = np.pad(image, [[w,w],[w,w],[0,0]], 'constant', constant_values=1.0).copy()
         if roi is not None:
-            roi = np.pad(roi, [[w,w],[w,w]], 'constant', constant_values=0.0)
+            roi = np.pad(roi, [[w,w],[w,w]], 'constant', constant_values=0.0).copy()
             
         # reorder image channels
         image = self.channels_first(image)
