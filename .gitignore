@@ -1,1 +1,6 @@
 data/genomes
+data/labkey
+data/temp
+data/meta
+*.ipynb_checkpoints*
+*__pycache__*
