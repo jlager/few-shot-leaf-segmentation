@@ -163,7 +163,7 @@ The `weights` folder includes the CNN parameters from the epoch resulting in the
     @misc{https://doi.org/10.48550/arxiv.2301.10351,
       doi = {10.48550/ARXIV.2301.10351},
       url = {https://arxiv.org/abs/2301.10351},
-      author = {Lagergren, John and Pavicic, Mirko and Chhetri, Hari B. and York, Larry M. and Hyatt, P. Doug and Kainer, David and Rutter, Erica M. and Flores, Kevin and Taylor, Gail and Jacobson, Daniel and Streich, Jared},
+      author = {Lagergren, John and Pavicic, Mirko and Chhetri, Hari B. and York, Larry M. and Hyatt, P. Doug and Kainer, David and Rutter, Erica M. and Flores, Kevin and Bailey-Bale, Jack and Klein, Marie and Taylor, Gail and Jacobson, Daniel and Streich, Jared},
       keywords = {Few-shot learning, Image-based plant phenotyping, Genomic analysis},
       title = {Few-Shot Learning Enables Population-Scale Analysis of Leaf Traits in Populus trichocarpa},
       publisher = {arXiv},
