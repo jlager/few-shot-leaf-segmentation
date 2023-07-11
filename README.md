@@ -160,13 +160,16 @@ The `weights` folder includes the CNN parameters from the epoch resulting in the
 
 **Citation:**
 
-    @misc{https://doi.org/10.48550/arxiv.2301.10351,
-      doi = {10.48550/ARXIV.2301.10351},
-      url = {https://arxiv.org/abs/2301.10351},
-      author = {Lagergren, John and Pavicic, Mirko and Chhetri, Hari B. and York, Larry M. and Hyatt, P. Doug and Kainer, David and Rutter, Erica M. and Flores, Kevin and Bailey-Bale, Jack and Klein, Marie and Taylor, Gail and Jacobson, Daniel and Streich, Jared},
-      keywords = {Few-shot learning, Image-based plant phenotyping, Genomic analysis},
-      title = {Few-Shot Learning Enables Population-Scale Analysis of Leaf Traits in Populus trichocarpa},
-      publisher = {arXiv},
-      year = {2023},
-      copyright = {arXiv.org perpetual, non-exclusive license}
+    @article{
+        doi:10.34133/plantphenomics.0072,
+        author = {John Lagergren  and Mirko Pavicic  and Hari B. Chhetri  and Larry M. York  and Doug Hyatt  and David Kainer  and Erica M. Rutter  and Kevin Flores  and Jack Bailey-Bale  and Marie Klein  and Gail Taylor  and Daniel Jacobson  and Jared Streich },
+        title = {Few-Shot Learning Enables Population-Scale Analysis of Leaf Traits in Populus trichocarpa},
+        journal = {Plant Phenomics},
+        volume = {0},
+        number = {ja},
+        pages = {},
+        year = {},
+        doi = {10.34133/plantphenomics.0072},
+        URL = {https://spj.science.org/doi/abs/10.34133/plantphenomics.0072},
+        eprint = {https://spj.science.org/doi/pdf/10.34133/plantphenomics.0072},
     }
